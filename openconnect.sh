@@ -96,9 +96,9 @@ make install DESTDIR=$BASE
 ############### #############################################################
 
 mkdir $SRC/openconnect && cd $SRC/openconnect
-$WGET ftp://ftp.infradead.org/pub/openconnect/openconnect-6.00.tar.gz
-tar zxvf openconnect-6.00.tar.gz
-cd openconnect-6.00
+$WGET ftp://ftp.infradead.org/pub/openconnect/openconnect-7.01.tar.gz
+tar zxvf openconnect-7.01.tar.gz
+cd openconnect-7.01
 
 $WGET http://git.infradead.org/users/dwmw2/vpnc-scripts.git/blob_plain/HEAD:/vpnc-script
 
